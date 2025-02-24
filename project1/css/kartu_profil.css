@@ -1,1 +1,128 @@
 
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:rgb(3, 22, 64);
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+h3{
+	margin: 10px 0;
+}
+h6{
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+p{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card{
+	background-color: rgb(58, 62, 148);
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75px);
+	color: rgb(191, 178, 178);
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+.round{
+	position: relative;
+	height: 150x;
+	width: 150px;
+}
+.card .round{
+	border: 1px solid #03bfcb;
+	border-radius: 50%;
+	padding: 7px;
+}
+.media{
+	margin-top: 15px;
+}
+.media a{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px;
+	margin-bottom: 20px;
+	color: #b3b8cd;
+	font-size: 24px;
+	text-decoration: none;
+	transition: transform 0.3s ease-in-out,color 0.3s ease-in-out;
+}
+.media a:hover{
+	transform: scale(1.2);
+	opacity: 0.8;
+	
+}
+.media a.instagram{
+	color: #e1306c;
+}
+.media a.facebook{
+	color: #1877f2 ;
+}
+.media a.youtube{
+	color:#ff0000;
+}
+button.button{
+	background-color: transparent;
+	border:1px solid #03bfcb;
+	border-radius: 20px;
+	color: #03bfcb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+button.button:hover{
+	background-color: #03bfcb;
+	color: white;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+button.button.button1{
+	background-color: transparent;
+	color: #03bfcb;
+	transition: all 0.3s ease-in-out;
+}
+button.button.button1:hover{
+	background-color: #03bfcb;
+	color: white;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.skill{
+	background-color: #1d153e;
+	text-align: left;
+	padding: 15px;
+	margin: 30px;
+}
+.skill ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.skill ul li{
+	border: 1px solid #483c81;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+	transition: all 0.3s ease-in-out;
+}
+.skill ul li:hover{
+	background-color: #03bfcb;
+	cursor: pointer;
+	transform: scale(1.1);
+	color: #231e3f;
+}
