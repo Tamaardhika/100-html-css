@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('onepiece.webp') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    background:rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    border: 2px solid rgb(255,255,255,.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+h2{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: -10px;
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: -10px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.3);
+    
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    
+}
+.remember label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.remember label:hover{
+    text-decoration: underline;
+    color: #3498db;
+}
+.remember a{
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color: #3498db;
+}
+button{
+    width: 100%;
+    background:linear-gradient(to right,#ff7e5f,#feb47b);
+    color: white;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0,3s;
+    border: none
+}
+p{
+    color: white;
+    margin-top: 15px;
+}
+button:hover{
+    background:linear-gradient(to right,#feb47b,#ff7e5f);
+    transform: scale(1.05);
+}
+.register a{
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+.register a:hover{
+    text-decoration: underline;
+}
